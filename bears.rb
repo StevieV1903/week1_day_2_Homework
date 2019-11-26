@@ -8,8 +8,13 @@ def initialize(name, type)
   @bear_stomach = []
 end
 
-def fish_amount
+def fish_amount()
     return @bear_stomach.length
+  end
+
+  def eat_fish(fish)
+    @bear_stomach.push(fish)
+
   end
 
 
