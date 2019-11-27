@@ -4,7 +4,7 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 require_relative('../bears')
 require_relative('../river')
-require_relative('../fish')
+# require_relative('../fish')
 
 
 class BearTest < Minitest::Test
